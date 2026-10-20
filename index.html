@@ -1,96 +1,408 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<
-<meta name="google-site-verification" content="6ce2N9mBdpG_GW2ucg4407_WegRZIphadMKcmASR4Xc" />
->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>سند هوم كير | رعايتك في بيتك</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>سند هوم كير | تمريض منزلي بالشرقية</title>
+
+<meta name="description" content="سند هوم كير لخدمات التمريض والرعاية المنزلية في منيا القمح ومحافظة الشرقية. تواصل معنا عبر واتساب.">
+
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f6fbfa;color:#193b46;line-height:1.9}
-header{background:white;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-.logo{font-size:25px;font-weight:bold;color:#087b72}
-a{text-decoration:none}
-.btn{display:inline-block;background:#087b72;color:white;padding:12px 20px;border-radius:12px;font-weight:bold}
-.hero{padding:65px 6%;background:linear-gradient(135deg,#dff6ee,#fff);text-align:center}
-.hero h1{font-size:clamp(32px,6vw,52px);line-height:1.4;color:#163e4b}
-.hero h1 span{color:#087b72}
-.hero p{max-width:650px;margin:0 auto 25px;font-size:18px;color:#526d72}
-.badge{display:inline-block;background:#c9eee3;color:#087b72;border-radius:30px;padding:5px 15px}
-section{padding:50px 6%}
-h2{text-align:center;font-size:30px;color:#163e4b}
-.intro{text-align:center;color:#60777b;margin-bottom:30px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1100px;margin:auto}
-.card{background:white;padding:23px;border:1px solid #dcece7;border-radius:18px;box-shadow:0 7px 20px #154d4a0b}
-.icon{font-size:32px}
-.card h3{color:#087b72;margin:8px 0}
-.card p{margin:0;color:#60777b}
-.about{background:#eaf7f3}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:15px;max-width:1000px;margin:auto;text-align:center}
-.step{background:white;border-radius:16px;padding:20px}
-.step strong{display:block;font-size:26px;color:#087b72}
-.contact{background:#153e4a;color:white;text-align:center;padding:45px 6%}
-.contact h2{color:white}
-.contact p{color:#d7eeea}
-.contact .btn{background:#22a765}
-footer{text-align:center;background:#102f39;color:#d7eae7;padding:20px;font-size:13px}
-.float{position:fixed;bottom:15px;left:15px;background:#20a65b;color:white;padding:12px 16px;border-radius:30px;box-shadow:0 5px 18px #0003;font-weight:bold}
-@media(max-width:500px){header{justify-content:center;text-align:center}.hero{padding:45px 5%}.hero p{font-size:16px}section{padding:40px 5%}}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  direction: rtl;
+  background: #f7fbff;
+  color: #17324d;
+  line-height: 1.8;
+}
+
+.container {
+  width: 92%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 12px #123d6810;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #123d68;
+}
+
+.logo span {
+  display: block;
+  font-size: 12px;
+  color: #218b91;
+}
+
+nav a {
+  text-decoration: none;
+  color: #123d68;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.hero {
+  padding: 65px 0;
+  background: linear-gradient(135deg, #e7f5f5, #edf4ff);
+}
+
+.hero h1 {
+  color: #123d68;
+  font-size: 38px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #526b80;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #13a765;
+  color: white;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 0;
+}
+
+.section-title {
+  text-align: center;
+  color: #123d68;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.section-desc {
+  text-align: center;
+  color: #607489;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #dce8ef;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 5px 20px #123d6808;
+}
+
+.card h3 {
+  color: #123d68;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #607489;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.about {
+  background: white;
+}
+
+.about h2 {
+  color: #123d68;
+  margin-bottom: 12px;
+}
+
+.about p {
+  color: #607489;
+  margin-bottom: 15px;
+}
+
+.coverage {
+  background: #eaf7f6;
+  text-align: center;
+}
+
+.coverage h2 {
+  color: #123d68;
+  margin-bottom: 12px;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  background: #0b2945;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.whatsapp-fixed {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background: #13a765;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+  z-index: 999;
+}
+
+@media (max-width: 700px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero h1 {
+    font-size: 29px;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+}
 </style>
 </head>
 <body>
+
 <header>
-<a href="#" class="logo">✚ سند هوم كير</a>
-<a class="btn" href="https://wa.me/201032033699">تواصل معنا</a>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        🏥 سند هوم كير
+        <span>سندك للرعاية الصحية المنزلية</span>
+      </div>
+
+      <div>
+        <a href="#home">الرئيسية</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">تواصل معنا</a>
+      </div>
+    </nav>
+  </div>
 </header>
+
 <main>
-<section class="hero">
-<span class="badge">رعاية صحية منزلية في الشرقية</span>
-<h1>رعايتك في بيتك…<br><span>وإحنا سندك</span></h1>
-<p>نهتم براحة المريض وطمأنينة أسرته، ونساعدك في تنسيق خدمات التمريض والرعاية المنزلية حسب احتياجات الحالة داخل محافظة الشرقية.</p>
-<a class="btn" href="https://wa.me/201032033699?text=مرحباً،%20أريد%20الاستفسار%20عن%20خدمات%20سند%20هوم%20كير">💬 احجز خدمة عبر واتساب</a>
+
+<section class="hero" id="home">
+  <div class="container">
+
+    <h1>رعاية منزلية باهتمام يطمّن قلبك ❤️</h1>
+
+    <p>
+      سند هوم كير لخدمات التمريض والرعاية المنزلية
+      في منيا القمح والمناطق التي نغطيها بمحافظة الشرقية.
+      نهتم براحة المريض وخصوصية أسرته.
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/201032033699"
+       target="_blank" rel="noopener">
+      💬 تواصل معنا عبر واتساب
+    </a>
+
+  </div>
 </section>
+
 <section id="services">
-<h2>خدماتنا</h2>
-<p class="intro">رعاية منزلية باهتمام واحترام وخصوصية</p>
-<div class="cards">
-<article class="card"><div class="icon">🩺</div><h3>التمريض المنزلي</h3><p>تنسيق خدمات تمريضية منزلية وفق احتياجات المريض وتعليمات الطبيب.</p></article>
-<article class="card"><div class="icon">🩸</div><h3>متابعة العلامات الحيوية</h3><p>متابعة الضغط والنبض والحرارة والأكسجين حسب احتياج الحالة.</p></article>
-<article class="card"><div class="icon">🤝</div><h3>رعاية كبار السن</h3><p>المساعدة في الرعاية اليومية مع الحفاظ على كرامة وراحة المريض.</p></article>
-<article class="card"><div class="icon">🏡</div><h3>رعاية ما بعد العمليات</h3><p>تنسيق الرعاية المنزلية بعد الخروج من المستشفى وفق الخطة العلاجية.</p></article>
-<article class="card"><div class="icon">💙</div><h3>متابعة الحالات المزمنة</h3><p>المساعدة في تنظيم المتابعة والالتزام بالتعليمات الطبية.</p></article>
-<article class="card"><div class="icon">👨‍👩‍👧</div><h3>دعم الأسرة</h3><p>التواصل مع الأسرة لفهم احتياجات المريض وترتيب تفاصيل الخدمة.</p></article>
-</div>
+  <div class="container">
+
+    <h2 class="section-title">خدماتنا</h2>
+
+    <p class="section-desc">
+      نتعرف على احتياجات الحالة ونوضح الخدمات المتاحة قبل الحجز.
+    </p>
+
+    <div class="services">
+
+      <div class="card">
+        <div class="icon">🩺</div>
+        <h3>التمريض المنزلي</h3>
+        <p>
+          خدمات تمريضية حسب احتياجات المريض
+          وفي حدود مؤهلات مقدم الخدمة.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">❤️</div>
+        <h3>رعاية كبار السن</h3>
+        <p>
+          المساعدة في الرعاية اليومية
+          والاهتمام براحة كبار السن وخصوصيتهم.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🏥</div>
+        <h3>الرعاية بعد المستشفى</h3>
+        <p>
+          تنسيق الرعاية المنزلية وفق تعليمات
+          الفريق الطبي المعالج.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">💉</div>
+        <h3>الإجراءات التمريضية</h3>
+        <p>
+          الإجراءات المتاحة حسب حالة المريض
+          ومؤهلات مقدم الخدمة.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🤝</div>
+        <h3>متابعة الحالة</h3>
+        <p>
+          متابعة تمريضية وفق خطة الرعاية
+          المتفق عليها واحتياجات المريض.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📱</div>
+        <h3>حجز واستفسار</h3>
+        <p>
+          تواصل معنا لمعرفة التكلفة
+          وتوافر الخدمة في منطقتك.
+        </p>
+      </div>
+
+    </div>
+  </div>
 </section>
-<section class="about">
-<h2>لماذا تختار سند هوم كير؟</h2>
-<p class="intro">نهتم بالإنسان قبل كل شيء</p>
-<div class="cards">
-<article class="card"><h3>💚 الاهتمام والاحترام</h3><p>التعامل مع المريض وأسرته بتقدير وخصوصية.</p></article>
-<article class="card"><h3>✓ وضوح التفاصيل</h3><p>مناقشة احتياجات الحالة قبل تنسيق الخدمة.</p></article>
-<article class="card"><h3>⌂ داخل الشرقية</h3><p>نستقبل الاستفسارات لتنسيق الخدمات داخل محافظة الشرقية.</p></article>
-</div>
+
+<section class="about" id="about">
+  <div class="container">
+
+    <h2 class="section-title">من نحن؟</h2>
+
+    <p>
+      سند هوم كير مشروع يهدف إلى تسهيل الوصول
+      إلى خدمات الرعاية والتمريض المنزلي في منيا القمح
+      والمناطق المتاحة بمحافظة الشرقية.
+    </p>
+
+    <p>
+      نحرص على وضوح تفاصيل الخدمة والتكلفة،
+      واحترام خصوصية المرضى وأسرهم،
+      وتحديد الخدمة المناسبة وفق احتياجات كل حالة.
+    </p>
+
+  </div>
 </section>
-<section>
-<h2>طريقة الحجز</h2>
-<div class="steps">
-<div class="step"><strong>١</strong>تواصل معنا عبر واتساب</div>
-<div class="step"><strong>٢</strong>اشرح احتياجات الحالة والمنطقة</div>
-<div class="step"><strong>٣</strong>نسّق تفاصيل الخدمة والموعد</div>
-</div>
+
+<section class="coverage">
+  <div class="container">
+
+    <h2>📍 نطاق الخدمة</h2>
+
+    <p>
+      منيا القمح والمناطق المتاحة بمحافظة الشرقية.
+    </p>
+
+    <p>
+      راسلنا بموقع الحالة للتأكد من إمكانية تقديم الخدمة.
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/201032033699?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%86%D8%B7%D8%A7%D9%82%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9"
+       target="_blank" rel="noopener">
+      تحقق من التغطية
+    </a>
+
+  </div>
 </section>
+
 <section class="contact" id="contact">
-<h2>سندك في محافظة الشرقية</h2>
-<p>للاستفسار عن الخدمات أو تنسيق موعد، راسلنا مباشرة.</p>
-<a class="btn" href="https://wa.me/201032033699?text=مرحباً،%20أريد%20حجز%20خدمة%20رعاية%20منزلية">واتساب 01032033699</a>
+  <div class="container">
+
+    <h2 class="section-title">تواصل معنا</h2>
+
+    <p class="section-desc">
+      نحن هنا لمساعدتك في معرفة الخدمات المتاحة
+      وتفاصيل الحجز.
+    </p>
+
+    <p>
+      📞 رقم التواصل:
+      <strong dir="ltr">01032033699</strong>
+    </p>
+
+    <br>
+
+    <a class="btn"
+       href="https://wa.me/201032033699?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%B3%D9%86%D8%AF%20%D9%87%D9%88%D9%85%20%D9%83%D9%8A%D8%B1"
+       target="_blank" rel="noopener">
+      راسلنا الآن على واتساب
+    </a>
+
+  </div>
 </section>
+
 </main>
+
 <footer>
-سند هوم كير © 2026 — رعايتك في بيتك وإحنا سندك.
-<p>الموقع للتعريف بالخدمات والتواصل، ولا يغني عن استشارة الطبيب أو خدمات الطوارئ.</p>
+  <div class="container">
+    <h3>سند هوم كير 🏥</h3>
+    <p>سندك للرعاية الصحية المنزلية</p>
+    <p>منيا القمح — محافظة الشرقية</p>
+    <p>© 2026 سند هوم كير — جميع الحقوق محفوظة</p>
+  </div>
 </footer>
-<a class="float" href="https://wa.me/201032033699">☏ واتساب</a>
+
+<a class="whatsapp-fixed"
+   href="https://wa.me/201032033699"
+   target="_blank" rel="noopener">
+  واتساب 💬
+</a>
+
 </body>
 </html>
